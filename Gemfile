@@ -18,6 +18,7 @@ end
 
 gem 'jquery-rails', '2.0.2'
 
+# needed in production at heroku
 group :production do
   gem 'pg', '0.12.2'
 end
